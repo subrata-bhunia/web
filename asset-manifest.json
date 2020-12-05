@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f32ae588.chunk.css",
+    "main.js": "/static/js/main.d5c47401.chunk.js",
+    "main.js.map": "/static/js/main.d5c47401.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d28bf9fe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d28bf9fe.js.map",
+    "static/css/2.229ed62f.chunk.css": "/static/css/2.229ed62f.chunk.css",
+    "static/js/2.c4ba08fd.chunk.js": "/static/js/2.c4ba08fd.chunk.js",
+    "static/js/2.c4ba08fd.chunk.js.map": "/static/js/2.c4ba08fd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.229ed62f.chunk.css.map": "/static/css/2.229ed62f.chunk.css.map",
+    "static/css/main.f32ae588.chunk.css.map": "/static/css/main.f32ae588.chunk.css.map",
+    "static/js/2.c4ba08fd.chunk.js.LICENSE.txt": "/static/js/2.c4ba08fd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/sofachrome_rg-webfont.eea2fb0d.woff2",
+    "static/media/logo.5420ddae.svg": "/static/media/logo.5420ddae.svg",
+    "static/media/slide1.af7fae34.jpg": "/static/media/slide1.af7fae34.jpg",
+    "static/media/slide2.d74af4bb.jpg": "/static/media/slide2.d74af4bb.jpg",
+    "static/media/slide3.eead677a.jpg": "/static/media/slide3.eead677a.jpg",
+    "static/media/slide4.f26d06b8.jpg": "/static/media/slide4.f26d06b8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d28bf9fe.js",
+    "static/css/2.229ed62f.chunk.css",
+    "static/js/2.c4ba08fd.chunk.js",
+    "static/css/main.f32ae588.chunk.css",
+    "static/js/main.d5c47401.chunk.js"
+  ]
+}
