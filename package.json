@@ -1,6 +1,7 @@
 {
   "name": "mysite",
-  "version": "0.1.0",
+   "homepage": "https://subrata-bhunia.github.io",
+  "version": "0.11.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
@@ -20,11 +21,13 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+  }, 
   "eslintConfig": {
     "extends": [
       "react-app",
