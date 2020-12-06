@@ -17,7 +17,7 @@ import ErrorPage from './Pages/ErrorPage';
 
 function App() {
   return (
-    <div className="">
+    <div className="body">
       <NavBar />
       <div className="main_div">
       <Switch >
