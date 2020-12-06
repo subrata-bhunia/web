@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousal from '../Components/Carousal';
 import Typewriter from 'typewriter-effect';
-
+import {NavLink} from 'react-router-dom';
 
 const Home=()=>{
     return(
@@ -26,6 +26,15 @@ const Home=()=>{
                                       delay:50
                                   }}
                                 />
+                            </div>
+                            <div className="home-button btn">
+                                <NavLink exact to="/services">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                   Get Started
+                                </NavLink>
                             </div>
                         </div>
         </div>

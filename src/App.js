@@ -3,9 +3,10 @@ import './App.css';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
-//Pages//
+//Components//
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
+// Pages //
 import Home from './Pages/Home';
 import Skill from './Pages/Skills';
 import Service from './Pages/Service';

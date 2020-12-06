@@ -1,12 +1,11 @@
 import React from 'react';
 
-
 const Skill=()=>{
-    return(
-        <div>
-            Welcome To Skill Page
-        </div>
-    )
+  return(
+    <div>
+
+    </div>
+  )
 }
 
 export default Skill;
