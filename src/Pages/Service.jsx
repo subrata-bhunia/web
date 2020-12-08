@@ -12,7 +12,7 @@ const Service=()=>{
                 <b >Services</b>
             </div>
         <div className="service">
-            <div className="container_service mx-auto">
+            <div className="container_service">
                     {
                         Sdata.map((val,ind)=>{
                             return(

@@ -407,12 +407,30 @@ footer{
   position: relative;
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(270px,2fr));
+  grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
   grid-template-rows: auto;
   grid-gap: 40px 40px;
   text-align: center;
   
 }
+@media screen and (max-width: 2178px){
+  .container_service{
+    grid-template-columns: repeat(auto-fill,minmax(294px,1fr));
+  }
+}
+
+@media screen and (max-width:1811px){
+  .container_service{
+    grid-template-columns: repeat(auto-fill,minmax(239px,1fr));
+  }
+}
+
+@media screen and (max-width:1441px){
+  .container_service{
+    grid-template-columns: repeat(auto-fill,minmax(190px,1fr));
+  }
+}
+
 .container_service .box{
   position: relative;
   height: 400px;
