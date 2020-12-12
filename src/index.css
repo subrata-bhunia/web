@@ -387,6 +387,15 @@ footer{
   min-height: auto;
   max-height: 3000vmax;
 }
+@media screen and (max-width: 365px){
+  .sub-title{
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  .title-massage{
+    margin-top: -580px;
+  }
+}
 /* ------------------------------------------------------------------- */
 /* Service Page */
 
@@ -428,6 +437,11 @@ footer{
 @media screen and (max-width:1441px){
   .container_service{
     grid-template-columns: repeat(auto-fill,minmax(190px,1fr));
+  }
+}
+@media screen and (max-width:601px){
+  .container_service{
+    grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
   }
 }
 
@@ -582,4 +596,49 @@ footer{
     margin-left: 50px !important ;
     margin-right: 50px !important;
   }
+}
+
+
+
+/* -------------------------------------------------------CHATBOT------------------------------------------------------------------- */
+
+.dTFZIe ,.eKiRHy{
+  width: 600px !important;
+  background: #b9d3f1 !important;
+}
+
+@media screen and (max-width: 650px){
+.dTFZIe,.eKiRHy {
+    border-radius: 0;
+    bottom: 0 !important;
+    left: initial !important;
+    height: 100%;
+    right: 0 !important;
+    top: initial !important;
+    width: 100% !important;
+}
+}
+
+@media screen and (max-width: 568px){
+  .dTFZIe,.eKiRHy {
+      border-radius: 0;
+      bottom: 0 !important;
+      left: initial !important;
+      height: 92% !important;
+      right: 0 !important;
+     margin-top: 100px !important;
+  }
+}
+/* Response  */
+.ihgPeA,.cGjtIh{
+  background: #ffffff !important;
+  color: #3333ff !important;
+}
+.ihgPeA:hover{
+  background: #3333ff !important;
+  color: #fff !important;
+}
+.cGjtIh:hover{
+  background: #3333ff !important;
+  color: #fff !important;
 }

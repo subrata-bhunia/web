@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import Sdata from '../DataBase/ServiceData';
-import Logo from '../logo.svg'
+// import Logo from '../logo.svg'
 
 
 
@@ -18,7 +18,7 @@ const Service=()=>{
                             return(
                                 <div className="box" key={ind}>
                                     <div className="content_service">
-                                    <img src={Logo} height="30" width="30" alt=" ..." className="logo" />
+                                    {/* <img src={Logo} height="30" width="30" alt=" ..." className="logo" /> */}
                                         <h2>
                                             {ind-ind}{ind+1}
                                         </h2>

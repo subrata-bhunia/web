@@ -2,6 +2,11 @@ import React from 'react';
 import Carousal from '../Components/Carousal';
 import Typewriter from 'typewriter-effect';
 import {NavLink} from 'react-router-dom';
+import ChatBot from 'react-simple-chatbot';
+import Cdata from "../DataBase/ChatData";
+import { ThemeProvider } from 'styled-components';
+import chat_styles from '../Components/ChatStyle';
+import bot from '../Images/Icons/bot.svg';
 
 const Home=()=>{
     return(
@@ -36,6 +41,19 @@ const Home=()=>{
                                    Get Started
                                 </NavLink>
                             </div>
+                        </div>
+                        <div className="chatbot">
+                            <ThemeProvider theme={chat_styles}>
+                            <ChatBot
+                                steps={Cdata}
+                                headerTitle={"Testing AI ChatBot"}
+                                placeholder="Type away..."
+                                customDelay="500"
+                                botAvatar={bot}
+                                floating="true"
+                                width="700px"
+                                />
+                            </ThemeProvider>
                         </div>
         </div>
     )

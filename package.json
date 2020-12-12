@@ -1,7 +1,6 @@
 {
   "name": "mysite",
-  "homepage": "https://subrata-bhunia.github.io/",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
@@ -18,12 +17,11 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-simple-chatbot": "^0.6.1",
+    "styled-components": "^5.2.1",
     "typewriter-effect": "^2.17.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
