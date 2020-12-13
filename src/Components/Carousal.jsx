@@ -14,15 +14,15 @@ const  Carousal=()=>{
                     <img src={Slide1}  alt="......" className=" d-block custom-img"  />
                 </Carousel.Item>
                 <Carousel.Item className="aa">
-                <img src={Slide1}  alt="......" className=" d-block custom-img"  />
+                <img src={Slide2}  alt="......" className=" d-block custom-img"  />
                     {/* <img src={"https://source.unsplash.com/daily?web-design"}  alt="......" className=" d-block  custom-img"  /> */}
                 </Carousel.Item>
                 <Carousel.Item className="aa">
-                <img src={Slide1}  alt="......" className=" d-block custom-img"  />
+                <img src={Slide3}  alt="......" className=" d-block custom-img"  />
                     {/* <img src={"https://source.unsplash.com/daily?webdesign"}  alt="......" className=" d-block  custom-img"  /> */}
                 </Carousel.Item>
                 <Carousel.Item className="aa">
-                <img src={Slide1}  alt="......" className=" d-block custom-img"  />
+                <img src={Slide4}  alt="......" className=" d-block custom-img"  />
                     {/* <img src={"https://source.unsplash.com/daily?hacking"}  alt="......" className=" d-block custom-img"  /> */}
                 </Carousel.Item>
             </Carousel>

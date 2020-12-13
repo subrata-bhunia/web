@@ -602,13 +602,13 @@ footer{
 
 /* -------------------------------------------------------CHATBOT------------------------------------------------------------------- */
 
-.dTFZIe ,.eKiRHy{
-  width: 600px !important;
+.dTFZIe ,.jaRgFd,.btsIpJ{
+  width:500px !important;
   background: #b9d3f1 !important;
 }
 
 @media screen and (max-width: 650px){
-.dTFZIe,.eKiRHy {
+.dTFZIe,.jaRgFd,.btsIpJ {
     border-radius: 0;
     bottom: 0 !important;
     left: initial !important;
@@ -620,7 +620,7 @@ footer{
 }
 
 @media screen and (max-width: 568px){
-  .dTFZIe,.eKiRHy {
+  .dTFZIe,.jaRgFd,.btsIpJ {
       border-radius: 0;
       bottom: 0 !important;
       left: initial !important;

@@ -6,8 +6,10 @@ import ChatBot from 'react-simple-chatbot';
 import Cdata from "../DataBase/ChatData";
 import { ThemeProvider } from 'styled-components';
 import chat_styles from '../Components/ChatStyle';
+//Chatbot Avatar
 import bot from '../Images/Icons/bot.svg';
-
+import user from '../Images/Icons/user.svg';
+//
 const Home=()=>{
     return(
         <div className="home">
@@ -46,12 +48,13 @@ const Home=()=>{
                             <ThemeProvider theme={chat_styles}>
                             <ChatBot
                                 steps={Cdata}
-                                headerTitle={"Testing AI ChatBot"}
+                                headerTitle={"Testing AI ChatBot by SB"}
                                 placeholder="Type away..."
                                 customDelay="500"
                                 botAvatar={bot}
+                                userAvatar={user}
                                 floating="true"
-                                width="700px"
+                                // width="700px"
                                 />
                             </ThemeProvider>
                         </div>
