@@ -36,7 +36,10 @@ class Login extends Component{
   return(
     <div>
       <form className="box-admin" onSubmit={this.Checking} action={this.state.path}>
-        <img src={logo} alt="........" />
+        <div>
+        <img src={logo} alt="........" className="logo-login" />
+        <label className="navbar-brand-title">Subrata</label>
+        </div>
         <h1>Login</h1>
         <input
            type="text" 

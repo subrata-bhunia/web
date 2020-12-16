@@ -254,6 +254,15 @@ footer{
   color:#b90000
   
 }
+.home-widget{
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  top: 4rem;
+  /* left: 30rem; */
+  /* right: 19rem; */
+  /* border: 1px solid #00bcd4; */
+}
 .home-button a{
   position: relative;
   display: inline-block;

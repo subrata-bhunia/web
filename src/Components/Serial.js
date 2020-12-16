@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 // import { warrantyChk, contractChk } from "../Extra/Helper";
+import Cdata from '../DataBase/ChatData';
 
 class SerialLookup extends Component {
   constructor(props) {
@@ -32,6 +33,7 @@ class SerialLookup extends Component {
       this.setState({error:true})
       console.log("AAAAAAA")
       this.props.triggerNextStep();
+      console.log(Cdata)
     }, 1000);
   }
 

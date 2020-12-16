@@ -57,7 +57,9 @@
   .box-admin input[type = "submit"]:hover{
     background: #2ecc71;
   }
-  
+  .logo-login{
+    height: 30px;
+  }
   /* ---------------------------Admin-panel-------------------- */
   .admin-dash{
     margin: 0 0 30px;
@@ -127,7 +129,7 @@
     font-size: 20px;
     font-weight: 500;
   }
-.ques-div input{
+.ques-div input[type="text"]{
   margin: 20px auto;
   outline: none;
   width: 50%;
@@ -168,6 +170,6 @@
     font-size: 50px;
     color:#3703c5
   }
-  .ques-div input:focus{
+  .ques-div input[type="text"]:focus{
     width: 80%;
   }
