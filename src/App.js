@@ -38,6 +38,12 @@ function App() {
           <Route exact path="/adminpanel">
             <Admin/>
           </Route>
+          <Route exact path="/bfc-cricket-info">
+            <Admin/>
+          </Route>
+          <Route exact path="/hny-wish-data">
+            <Admin/>
+          </Route>
           {/* Error */}
           <Redirect to="/error" />
         </Switch>

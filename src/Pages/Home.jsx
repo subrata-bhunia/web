@@ -9,17 +9,22 @@ import chat_styles from '../Components/ChatStyle';
 //Chatbot Avatar
 import bot from '../Images/Icons/bot.svg';
 import user from '../Images/Icons/user.svg';
+import HNY from '../Components/HNY';
 //
 const Home=()=>{
     return(
-        <div className="home">
+        <div className="">
             {/* <div className="climacell-widget home-widget" data-apikey="4EEXliJwhnMP3dJ8EB9nKfA6vnFAJnZp" data-type="daily" data-location-name="280 Summer Street, Boston, MA 02210, USA" data-location-lon="-71.04974909999999" data-location-lat="42.3502782" data-size-mode="large" data-font-color="#000" data-background-color="#ffc0c0" data-font-family="verdana" data-weather-params="temp:C,precipitation:in/hr,humidity:%" data-allow-users-enter-address="true" >
             </div> */}
-            <div className="climacell-widget home-widget" data-apikey="4EEXliJwhnMP3dJ8EB9nKfA6vnFAJnZp" data-type="nowcast" data-location-name="Debpur, West Bengal 721156, India" data-location-lon="87.568131928545" data-location-lat="22.512938549785886" data-size-mode="small" data-font-color="#000" data-background-color="transparent" data-background-opcity="0.5" data-font-family="times new roman" data-weather-params="temp:C,precipitation:mm/hr" data-precipitation-timeline="true" data-allow-users-enter-address="true" ></div>
             <div>
-            <Carousal />
+                <HNY />
             </div>
-            <div className="title-massage">
+            {/* Just for Happy new year Event */}
+            {/* <div className="climacell-widget home-widget" data-apikey="4EEXliJwhnMP3dJ8EB9nKfA6vnFAJnZp" data-type="nowcast" data-location-name="Debpur, West Bengal 721156, India" data-location-lon="87.568131928545" data-location-lat="22.512938549785886" data-size-mode="small" data-font-color="#000" data-background-color="transparent" data-background-opcity="0.5" data-font-family="times new roman" data-weather-params="temp:C,precipitation:mm/hr" data-precipitation-timeline="true" data-allow-users-enter-address="true" ></div> */}
+            {/* <div>
+            <Carousal />
+            </div> */}
+            {/* <div className="title-massage">
                 <h1 className="text-center heading mb-3">
                     Hi, I am 
                     <br/>
@@ -46,7 +51,7 @@ const Home=()=>{
                         Get Started
                     </NavLink>
                 </div>
-            </div>
+            </div> */}
             <div className="chatbot">
                 <ThemeProvider theme={chat_styles}>
                 <ChatBot

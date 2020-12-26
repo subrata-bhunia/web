@@ -1,0 +1,23 @@
+.bfc-cric-info{
+    text-align: center;
+    align-self: center;
+
+}
+.xxxx{
+    /* justify-content: center; */
+    width: calc(100% - 10%);
+    max-width: 1110px;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 590px) {
+.react-pdf__Page__canvas{
+    width: 100% !important;
+}
+}

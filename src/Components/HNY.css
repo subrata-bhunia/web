@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+
+section{
+    height: 60vmax;
+    background: #000;
+}
+
+@media screen and (max-width: 1023px){
+    section{
+        height: 90vmax;
+    }
+    h1{
+        font-size: 3%;
+    }
+}
+section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(to right, #f00,#f00,#0f0,#0ff,#ff0,#0ff) ;
+    pointer-events: none;
+    mix-blend-mode: color;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #ddd;
+    font-size: 5em;
+    /* font-family: sans-serif; */
+    letter-spacing: 0.3em;
+}
+h1 span{
+    display: inline-block;
+    animation: animate 1s linear forwards;
+    opacity: 0;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+video{
+    object-fit: cover;
+    width: 100%;
+}
+h1 span:nth-child(1){
+    animation-delay: 1s;
+}
+h1 span:nth-child(2){
+    animation-delay: 1.4s;
+}
+h1 span:nth-child(3){
+    animation-delay: 1.8s;
+}
+h1 span:nth-child(4){
+    animation-delay: 2.2s;
+}
+h1 span:nth-child(5){
+    animation-delay: 2.7s;
+}
+h1 span:nth-child(6){
+    animation-delay: 3.1s;
+}
+h1 span:nth-child(7){
+    animation-delay: 3.5s;
+}
+h1 span:nth-child(8){
+    animation-delay: 4s;
+}
+h1 span:nth-child(9){
+    animation-delay: 4.4s;
+}
+h1 span:nth-child(10){
+    animation-delay: 4.8s;
+}
+h1 span:nth-child(11){
+    animation-delay: 5.2s;
+}
+h1 span:nth-child(12){
+    animation-delay: 5.7s;
+}
+h1 span:nth-child(13){
+    animation-delay: 6.15s;
+}
+h1 span:nth-child(14){
+    animation-delay: 6.25s;
+}
+h1 span:nth-child(15){
+    animation-delay: 6.35s;
+}
+h1 span:nth-child(16){
+    animation-delay: 6.45s;
+}
+
+/* ...........................................Slider............................................ */
+/* Wish Section*/
+
+.wish-sec{
+    height: auto;
+    background: transparent;
+    text-align: center;
+    display: flex;
+    box-shadow: 0px 0px 5px 7px rgba(0,0,0,0.75);
+    justify-self:center;
+    margin: 5%;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.wish-content{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  font-family:'Niconne';
+}
+.auth{
+    position: absolute;
+    /* display: flex; */
+    margin: 5;
+    bottom: 5px;
+    right: 50%;
+    color: #f00;
+    font-family: 'Sirin Stencil';
+}

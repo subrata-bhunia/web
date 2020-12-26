@@ -52,7 +52,7 @@ class AdminPanel extends Component{
             </nav>
             <div className="responsive">
             <div className="box-adminpanel-left">
-                <h1>New Questions & Answer Set </h1>
+                <h2>New Questions & Answer Set </h2>
                 {/* Question Set */}
                 <form className="ques-div">
                    <p>Questions</p> 
@@ -205,7 +205,7 @@ class AdminPanel extends Component{
                 </div>
             </div>
             <div className="box-adminpanel-right">
-            <h1>Setup Preview</h1>
+            <h2>Setup Preview</h2>
             <div className="setup-div">
                 {/* Setup */}
                 <p>

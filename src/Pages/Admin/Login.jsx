@@ -40,7 +40,7 @@ class Login extends Component{
         <img src={logo} alt="........" className="logo-login" />
         <label className="navbar-brand-title">Subrata</label>
         </div>
-        <h1>Login</h1>
+        <h2>Login</h2>
         <input
            type="text" 
            name="username " 

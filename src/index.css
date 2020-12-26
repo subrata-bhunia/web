@@ -9,7 +9,7 @@ body {
     sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   background-color: #347e71 !important;
 }
 
@@ -156,6 +156,8 @@ footer{
 .left .content .social a span:hover{
   background: #fafafa;
   color: #111;
+  /* box-shadow:-8px -7px 7px 0px rgba(255, 255, 255, 1) !important;
+  box-shadow:5px -5px 0px 0px rgba(255, 255, 255, 1); */
 }
 
 .center-q .content .fas{
@@ -357,7 +359,7 @@ footer{
 /* Home-Carousel */
 
 .custom-img{
-  height: 90vh;
+  height: 150vh;
   object-fit: cover;
   opacity: 0.6;
   transition: 0.6ms;

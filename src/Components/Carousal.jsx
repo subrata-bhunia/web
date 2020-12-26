@@ -8,7 +8,7 @@ import Slide4 from '../Images/Carousel/slide4.jpg';
 const  Carousal=()=>{
     return(
         <div className="mb-3">
-            <Carousel  slide={false} fade={true} controls={false} indicators interval={50000} pause={false} >
+            <Carousel  slide={false} fade={true} controls={true} indicators interval={50000} pause={false} >
                 <Carousel.Item className="aa">
                     {/* <img src="https://source.unsplash.com/daily?php"  alt="......" className=" d-block custom-img"  /> */}
                     <img src={Slide1}  alt="......" className=" d-block custom-img"  />
