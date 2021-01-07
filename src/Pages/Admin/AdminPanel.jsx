@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle';
-
+import {Helmet } from 'react-helmet';
 
 
 
@@ -19,7 +19,7 @@ class AdminPanel extends Component{
              value:'',
              label:'',
              trigger:''
-         }
+        }
         };
 
 
@@ -44,6 +44,9 @@ class AdminPanel extends Component{
     render(){
     return(
         <div className="admin-dash">
+            <Helmet>
+              <title>Admin Panel</title>
+          </Helmet>
             <nav className="navbar navbar-light bg-light">
                 <div className="container-fluid">
                     <span className="navbar-brand mb-0 h1 bold">Dashboard</span>

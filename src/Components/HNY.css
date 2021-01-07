@@ -36,13 +36,14 @@ h1{
     text-align: center;
     color: #ddd;
     font-size: 5em;
-    /* font-family: sans-serif; */
+     font-family: Sirin Stencil; 
     letter-spacing: 0.3em;
 }
 h1 span{
     display: inline-block;
     animation: animate 1s linear forwards;
     opacity: 0;
+
 }
 @keyframes animate{
     0%{
@@ -54,6 +55,7 @@ h1 span{
         opacity: 1;
         transform: rotateY(0deg);
         filter: blur(0);
+        text-shadow:0 0 1rem #ddd;
     }
 }
 video{
@@ -130,13 +132,15 @@ h1 span:nth-child(16){
   align-items: center;
   height: 75%;
   font-family:'Niconne';
+  font-size: 1.5em;
 }
 .auth{
     position: absolute;
     /* display: flex; */
     margin: 5;
     bottom: 5px;
-    right: 50%;
+    right: 0;
     color: #f00;
     font-family: 'Sirin Stencil';
+    padding: 10px;
 }

@@ -40,9 +40,13 @@ min-height: auto;
   background-color: #fff;
   color: #fff;
 }
-/* .navbar-toggler-icon{
+.navbar-toggler-icon{
+  background: url('./Images/Icons/menu.svg') no-repeat !important;
+}
+.X{
+  background: url('./Images/Icons/X.svg') no-repeat !important;
+}
 
-} */
 .navbar-brand-title{
   margin-left: 7px;
   font-family:sofachromeregular ;
@@ -53,6 +57,14 @@ min-height: auto;
 .navbar{
   background:#a0c4e5;
 }
+.navbar-nav .nav-link{
+  float: right;
+
+}
+.navbar-toggler:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
 /* .navbar::after{
   background:#5882A9;
 } */
@@ -61,6 +73,7 @@ min-height: auto;
   font-weight: bolder;
   border-bottom: 1px solid blue;
 }
+
 @font-face {
   font-family: 'monstarizeregular';
   src: url('monstarize.regular-webfont.woff2') format('woff2'),
@@ -183,6 +196,13 @@ footer{
   font-size: 1.0625rem;
   margin-bottom: 2px;
   color: #fdfdfd;
+}
+.text_contact{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #fdfdfd;
+  text-decoration: none;
+  margin-left: 10px;
 }
 .right form .msg{
   margin-top: 10px;

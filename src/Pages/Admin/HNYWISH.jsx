@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import db from '../../DataBase/Database';
-
+import {Helmet } from 'react-helmet';
 
 const HNYwish=()=>{
     const [data,setData]=useState({
@@ -32,6 +32,9 @@ const HNYwish=()=>{
     }
     return(
         <div>
+            <Helmet>
+              <title>✨Happy New Year Wishes</title>
+          </Helmet>
             <h2 className="text-center">HNY Wishes Data</h2>
             <form className="form" onSubmit={formSubmit}>
                 <div className="">

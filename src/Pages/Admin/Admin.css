@@ -60,6 +60,9 @@
   .logo-login{
     height: 30px;
   }
+  .NavLink{
+    cursor:pointer;
+  }
   /* ---------------------------Admin-panel-------------------- */
   .admin-dash{
     margin: 0 0 30px;
@@ -222,4 +225,12 @@
     }
     form input[type = "submit"]:hover{
       background: #2ecc71;
+    }
+    /* Modal */
+
+    .modalview{
+      height: 100px;
+      text-align: center;
+      padding: 2px;
+      width: 33.3%;
     }

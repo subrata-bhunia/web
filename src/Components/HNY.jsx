@@ -15,6 +15,7 @@ const HNY=()=>{
     const Data =()=>{
         db.ref('/HNYWishes/').on('value', snapshot => {
             let data = snapshot.val();
+            // console.log(data)
             let items = Object.values(data);
             setArr({ items });
           });
@@ -22,31 +23,40 @@ const HNY=()=>{
     useEffect(() => {
         Data();
       } ,[]);
+    //   console.log(Arr.items)
     return(
         <div>
             <section>
                 <video src={Smoke} autoPlay muted></video>
                 <h1>
-                    <span>H</span>
-                    <span>A</span>
-                    <span>P</span>
-                    <span>P</span>
-                    <span>Y</span>
-                    <span>N</span>
-                    <span>E</span>
-                    <span>W</span>
-                    <span>Y</span>
-                    <span>E</span>
-                    <span>A</span>
-                    <span>R</span>
-                    <span>2</span>
-                    <span>0</span>
-                    <span>2</span>
-                    <span>1</span>
+                	<div>
+	                    <span>H</span>
+	                    <span>A</span>
+	                    <span>P</span>
+	                    <span>P</span>
+	                    <span>Y</span>
+                    </div>
+                    <div>
+	                    <span>N</span>
+	                    <span>E</span>
+	                    <span>W</span>
+                	</div>
+                	<div>
+	                    <span>Y</span>
+	                    <span>E</span>
+	                    <span>A</span>
+	                    <span>R</span>
+                    </div>
+                    <div>
+	                    <span>2</span>
+	                    <span>0</span>
+	                    <span>2</span>
+	                    <span>1</span>
+                	</div>
                 </h1>
             </section>
             <div className="wish-sec">
-            <Slider autoplay={3000}>
+            <Slider autoplay={1000}>
                 {Arr.items.map((item, index) => (
                     <div
                         key={index}

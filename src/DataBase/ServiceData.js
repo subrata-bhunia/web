@@ -2,27 +2,27 @@ const SData=[
     {
         title:"Web Devolop",
         about:"Lorem Ipsum is simply dummy text of tldus PageMaker including versions odus PageMaker including versions ofdus PageMaker including versions o Lorem Ipsum.",
-        visit:"/error"
+        visit:"/"
     },
     {
         title:"App Devolop",
         about:"Lorem Ipsum is simply dummy text of tldus PageMaker including versions odus PageMaker including versions ofdus PageMaker including versions o Lorem Ipsum.",
-        visit:"/error"
+        visit:"/"
     },
     {
         title:"UI Design",
         about:"Lorem Ipsum is simply dummy text of tldus PageMaker including versions odus PageMaker including versions ofdus PageMaker including versions o Lorem Ipsum.",
-        visit:"/error"
+        visit:"/"
     },
     {
         title:"UX Design",
         about:"Lorem Ipsum is simply dummy text of tldus PageMaker including versions odus PageMaker including versions ofdus PageMaker including versions o Lorem Ipsum.",
-        visit:"/error"
+        visit:"/"
     },
     {
         title:"Teaching ",
         about:"Lorem Ipsum is simply dummy text of tldus PageMaker including versions odus PageMaker including versions ofdus PageMaker including versions o Lorem Ipsum.",
-        visit:"/error"
+        visit:"/"
     }
 ]
 

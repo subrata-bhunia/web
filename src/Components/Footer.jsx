@@ -29,15 +29,15 @@ const Footer=()=>{
                     <div className="content">
                     <div className="place">
                         <span className="fas fa-map-marker-alt"></span>
-                        <span className="text">Debpur,Debra,WB</span>
+                        <a href="https://www.google.com/maps/place/Debpur+Bright+Future+Club+(B.F.C.)/@22.5063131,87.585555,20.22z/data=!4m5!3m4!1s0x0:0xf3dc11d14d2029ca!8m2!3d22.5062777!4d87.5854511" className="text_contact">Debpur,Debra,WB</a>
                     </div>
                     <div className="place">
                         <span className="fas fa-phone-alt"></span>
-                        <span className="text">+91-731-891-5280</span>
+                        <a className="text_contact" href="tel:+917318915280">+91-731-891-5280</a>
                     </div>
                     <div className="place">
                         <span className="fas fa-envelope"></span>
-                        <span className="text">contact.sbhunia@gmail.com</span>
+                        <a href="mailto:contact.sbhunia@gmail.com" className="text_contact">contact.sbhunia@gmail.com</a>
                     </div>
                     </div>
                 </div>

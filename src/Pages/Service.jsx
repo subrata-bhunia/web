@@ -2,12 +2,15 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 import Sdata from '../DataBase/ServiceData';
 // import Logo from '../logo.svg'
-
+import {Helmet} from 'react-helmet';
 
 
 const Service=()=>{
     return(
         <div>
+            <Helmet>
+              <title>Subrata | Services</title>
+          </Helmet>
              <div className="text-center service_div">
                 <b >Services</b>
             </div>

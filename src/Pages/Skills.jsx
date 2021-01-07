@@ -5,11 +5,14 @@ import Col from "react-bootstrap/Col";
 import {skills} from '../DataBase/SkillsData';
 import CardDeck from "react-bootstrap/CardDeck";
 import Row from "react-bootstrap/Row";
-
+import {Helmet} from 'react-helmet';
 
 const Skill=()=>{
   return(
     <div>
+      <Helmet>
+              <title>Subrata | Skills</title>
+          </Helmet>
       <div className="text-center skill_div">
         Tech Skills
       </div>
