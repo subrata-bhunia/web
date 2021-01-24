@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
 
 
 body {
@@ -11,6 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale !important;
   overflow-x: hidden;
   background-color: #347e71 !important;
+  /* cursor: url('cursor.png'),auto ; */
 }
 
 code {
@@ -379,7 +381,7 @@ footer{
 /* Home-Carousel */
 
 .custom-img{
-  height: 150vh;
+  height: 110vh;
   object-fit: cover;
   opacity: 0.6;
   transition: 0.6ms;
@@ -393,9 +395,10 @@ footer{
   position: absolute;
   width: 100%;
   z-index: 1;
-  margin-top: -450px;
+  /* margin-top: -450px; */
   text-align: center;
-  top: 42rem;
+  top: 20rem;
+  text-shadow: 0 0 #fff;
 }
 .heading{
   letter-spacing: 7px;
@@ -403,6 +406,7 @@ footer{
   font-weight: 100;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   color: #2A0088;
+  font-family: Sirin Stencil;
 }
 .heading strong{
   font-size: 1.25em;
@@ -422,9 +426,6 @@ footer{
   .sub-title{
     font-size: 25px;
     letter-spacing: 3px;
-  }
-  .title-massage{
-    margin-top: -580px;
   }
 }
 /* ------------------------------------------------------------------- */

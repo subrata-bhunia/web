@@ -17,9 +17,13 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+//
+import db from '../DataBase/Database';
 
-// var today=new Date();
 
+
+var today=new Date().getHours();
+console.log(today)
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -77,7 +81,8 @@ Fade.propTypes = {
 const Contact=()=>{
   const [Arr,setArr]=useState(
     {
-      newsData:[]
+      newsData:[],
+      newsDataF:[]
     }
   );
   // const [Hoil,setHoil]=useState([]);
@@ -85,6 +90,27 @@ const Contact=()=>{
   const classes = useStyles();
   var localArr=[];
 
+  //--------PUSH------------//
+  let Id =db.ref('/NewsApi')
+  let addItem=(item)=>{
+      Id.push({
+        newsData:item 
+      });
+  };
+
+//----------------//
+// --------------//
+const Data =()=>{
+  db.ref('/NewsApi/').on('value', snapshot => {
+      let data = snapshot.val();
+      // console.log(data)
+      let newsDataF = Object.values(data);
+      let mainArr = Object.values(newsDataF);
+      var newsD= mainArr[0].newsData
+      setArr({newsDataF:newsD})
+    });
+}
+// ----------------
 
   // New Api-----Google--rapidapi--//
 // //-------------------------------//
@@ -152,8 +178,10 @@ async  function fetchDateMthdByPost(){
 // // -----------------------------------------//
 
   useEffect(()=>{
-    fetchDateMthdByPost();
-    localStorage.setItem(localArr,Arr)
+    addItem(Arr.newsData);
+    localStorage.setItem(localArr,Arr);
+    Data();
+
   //  fetchDataMthd();
     // fetchHoliday();
     // Checking();
@@ -186,7 +214,9 @@ async  function fetchDateMthdByPost(){
               <title>Subrata | News India</title>
           </Helmet>
           <div className="contact">
-            {console.log(Arr.newsData)}
+            {/* <button onClick={()=>fetchDateMthdByPost()}>
+            </button> */}
+            {console.log(Arr.newsDataF)}
             {/* HoliDay Popup */}
             {/* <Modal
                     aria-labelledby="spring-modal-title"
@@ -219,7 +249,7 @@ async  function fetchDateMthdByPost(){
             {/* News Data */}
 
             {
-              Arr.newsData.length===0 &&
+              Arr.newsDataF.length===0 &&
               <div className="text-center d-block m-5 p-5">
                 <div className="spinner-border" role="status" style={{width:"20spx",height:"200px"}}>
                     <div className="spinner-border" role="status" style={{width:"20px",height:"200px"}}>
@@ -237,7 +267,7 @@ async  function fetchDateMthdByPost(){
             }
           
             {
-              Arr.newsData.map((itm,ind)=>{
+              Arr.newsDataF.map((itm,ind)=>{
                 return(
                   <div key={ind} className="d-gird m-5">
                    <Card className={classes.root}>
