@@ -686,9 +686,13 @@ footer{
   background-color:#111 !important;
 }
 .LI-badge-container.horizontal.dark a:hover{
-  background-color: #fff !important;
-  color: #111 !important;
+  /* background-color: #fff !important; */
+  /* color: #111 !important; */
+  border-style: dashed !important;
 }
 .LI-view-profile:hover{
-  color: #111 ;
+  color: #111 !important ;
+}
+.LI-view-profile{
+  color: #00bcd4;
 }
