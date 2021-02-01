@@ -42,9 +42,9 @@ const Footer=()=>{
                     </div>
                 </div>
                 <div className="right box">
-                    <h2>Contact us</h2>
+                    <h2>Contact Me</h2>
                     <div className="content">
-                        <form action="">
+                        {/* <form action="">
                             <div className="email">
                                 <div className="text">Email* </div>
                                 <input type="email" required />
@@ -56,7 +56,8 @@ const Footer=()=>{
                             <div className="btns">
                                 <button type="submit">Send</button>
                             </div>
-                        </form>
+                        </form> */}
+                        <div className="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="contact-subrata"><a className="LI-simple-link" href='https://in.linkedin.com/in/contact-subrata?trk=profile-badge'>Subrata Bhunia</a></div>
                     </div>
                 </div>
                 

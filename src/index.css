@@ -674,3 +674,21 @@ footer{
   background: #3333ff !important;
   color: #fff !important;
 }
+
+
+/* Badge footer */
+.LI-badge-container.horizontal.dark{
+  width: auto !important;
+  border-radius: 20px !important;
+  background-color: #111111 !important;
+}
+.LI-badge-container.horizontal.dark html, .LI-badge-container.horizontal.dark body, .LI-badge-container.horizontal.dark div, .LI-badge-container.horizontal.dark span, .LI-badge-container.horizontal.dark applet, .LI-badge-container.horizontal.dark object, .LI-badge-container.horizontal.dark iframe, .LI-badge-container.horizontal.dark h1, .LI-badge-container.horizontal.dark h2, .LI-badge-container.horizontal.dark h3, .LI-badge-container.horizontal.dark h4, .LI-badge-container.horizontal.dark h5, .LI-badge-container.horizontal.dark h6, .LI-badge-container.horizontal.dark p, .LI-badge-container.horizontal.dark blockquote, .LI-badge-container.horizontal.dark pre, .LI-badge-container.horizontal.dark a, .LI-badge-container.horizontal.dark abbr, .LI-badge-container.horizontal.dark acronym, .LI-badge-container.horizontal.dark address, .LI-badge-container.horizontal.dark big, .LI-badge-container.horizontal.dark cite, .LI-badge-container.horizontal.dark code, .LI-badge-container.horizontal.dark del, .LI-badge-container.horizontal.dark dfn, .LI-badge-container.horizontal.dark em, .LI-badge-container.horizontal.dark img, .LI-badge-container.horizontal.dark ins, .LI-badge-container.horizontal.dark kbd, .LI-badge-container.horizontal.dark q, .LI-badge-container.horizontal.dark s, .LI-badge-container.horizontal.dark samp, .LI-badge-container.horizontal.dark small, .LI-badge-container.horizontal.dark strike, .LI-badge-container.horizontal.dark strong, .LI-badge-container.horizontal.dark sub, .LI-badge-container.horizontal.dark sup, .LI-badge-container.horizontal.dark tt, .LI-badge-container.horizontal.dark var, .LI-badge-container.horizontal.dark b, .LI-badge-container.horizontal.dark u, .LI-badge-container.horizontal.dark i, .LI-badge-container.horizontal.dark center, .LI-badge-container.horizontal.dark dl, .LI-badge-container.horizontal.dark dt, .LI-badge-container.horizontal.dark dd, .LI-badge-container.horizontal.dark ol, .LI-badge-container.horizontal.dark ul, .LI-badge-container.horizontal.dark li, .LI-badge-container.horizontal.dark fieldset, .LI-badge-container.horizontal.dark form, .LI-badge-container.horizontal.dark label, .LI-badge-container.horizontal.dark legend, .LI-badge-container.horizontal.dark table, .LI-badge-container.horizontal.dark caption, .LI-badge-container.horizontal.dark tbody, .LI-badge-container.horizontal.dark tfoot, .LI-badge-container.horizontal.dark thead, .LI-badge-container.horizontal.dark tr, .LI-badge-container.horizontal.dark th, .LI-badge-container.horizontal.dark td, .LI-badge-container.horizontal.dark article, .LI-badge-container.horizontal.dark aside, .LI-badge-container.horizontal.dark canvas, .LI-badge-container.horizontal.dark details, .LI-badge-container.horizontal.dark embed, .LI-badge-container.horizontal.dark figure, .LI-badge-container.horizontal.dark figcaption, .LI-badge-container.horizontal.dark footer, .LI-badge-container.horizontal.dark header, .LI-badge-container.horizontal.dark hgroup, .LI-badge-container.horizontal.dark menu, .LI-badge-container.horizontal.dark nav, .LI-badge-container.horizontal.dark output, .LI-badge-container.horizontal.dark ruby, .LI-badge-container.horizontal.dark section, .LI-badge-container.horizontal.dark summary, .LI-badge-container.horizontal.dark time, .LI-badge-container.horizontal.dark mark, .LI-badge-container.horizontal.dark audio, .LI-badge-container.horizontal.dark video{
+  background-color:#111 !important;
+}
+.LI-badge-container.horizontal.dark a:hover{
+  background-color: #fff !important;
+  color: #111 !important;
+}
+.LI-view-profile:hover{
+  color: #111 ;
+}
