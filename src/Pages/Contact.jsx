@@ -101,13 +101,13 @@ const Contact=()=>{
 //----------------//
 // --------------//
 const Data =()=>{
-  db.ref('/NewsApi/').on('value', snapshot => {
+  db.ref('/').on('value', snapshot => {
       let data = snapshot.val();
       // console.log(data)
       let newsDataF = Object.values(data);
       let mainArr = Object.values(newsDataF);
-      var newsD= mainArr[0].newsData
-      setArr({newsDataF:newsD})
+      // var newsD= mainArr[0].newsData
+      setArr({newsDataF:newsDataF})
     });
 }
 // ----------------
@@ -279,7 +279,7 @@ async  function fetchDateMthdByPost(){
                         />
                         <CardContent>
                           <Typography gutterBottom variant="h4" component="h2">
-                           {itm.title}
+                           {itm.email}
                           </Typography>
                           <Typography gutterBottom variant="subtitle1" component="h2">
                            Author - {itm.author}
